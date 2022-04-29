@@ -4,13 +4,13 @@ pipeline {
         stage ('Build'){
             steps{
                 echo 'Building...'
-              //  bat 'python lab.py'
+                bat 'python lab.py'
             }
         }
         stage ('Test'){
             steps{
                 echo 'Using maven'
-              //  bat 'python lab.py'
+                bat 'python lab.py'
             }
         }
     }
